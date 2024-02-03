@@ -3,15 +3,15 @@ import banner from '../../../assets/banner.png'
 export const BannerSection = () => {
   return (<>
     <section>
-      <div>
+      <div className='container'>
         <div>
-          <h1>We Design Impactful Digital <span>Products</span></h1>
-          <p>Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services.</p>
+          <h1 className='title h1'>We Design Impactful Digital <span>Products</span></h1>
+          <p className='paragraph'>Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services.</p>
           <div>
-            <button>Contact Us</button>
+            <button className='button'>Contact Us</button>
             <div>
               <a href='https://www.youtube.com/'>▶</a>
-              <p>Watch our introduction video</p>
+              <p className='paragraph'>Watch our introduction video</p>
             </div>
           </div>
         </div>

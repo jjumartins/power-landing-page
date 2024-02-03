@@ -3,8 +3,8 @@ export const ReviewCard = ({ review }) => {
     <li>
       <img src={review.img} alt='Client picture' />
       <div>
-        <h3>{review.name}</h3>
-        <p>{review.text}</p>
+        <h3 className='title h3'>{review.name}</h3>
+        <p className='paragraph'>{review.text}</p>
         <p>✪✪✪✪✪</p>
       </div>
     </li>

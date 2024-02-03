@@ -3,7 +3,7 @@ import logo from '../../assets/black_logo.svg'
 export const Header = () => {
   return (<>
     <header>
-      <div>
+      <div className='container'>
         <a href='#'><img src={logo} alt='Logo Power' /></a>
         <nav>
           <ul>
@@ -13,7 +13,7 @@ export const Header = () => {
             <li><a href='#'>Services</a></li>
           </ul>
         </nav>
-        <button>Contact Us</button>
+        <button className='button'>Contact Us</button>
       </div>
     </header>
   </>)

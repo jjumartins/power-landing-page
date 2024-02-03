@@ -7,8 +7,8 @@ import amazon_logo from '../../../assets/companies/amazon_logo.svg'
 export const CompaniesSection = () => {
   return (<>
     <section>
-      <div>
-        <h3>Trusted By Greatest Companies</h3>
+      <div className='container'>
+        <h3 className='title h3'>Trusted By Greatest Companies</h3>
         <div>
           <img src={google_logo} alt='Google Logo' />
           <img src={airbnb_logo} alt='Airbnb Logo' />
