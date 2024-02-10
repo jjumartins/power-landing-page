@@ -1,0 +1,75 @@
+.highlight {
+  color: var(--brand-color);
+  text-decoration: underline dotted;
+}
+
+.introduction {
+  padding: 1.5rem 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.videoLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.play {
+  background: var(--gray);
+  border-radius: 100%;
+  padding: 16px;
+  line-height: 10px;
+}
+
+.banner{
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+@media (min-width: 500px) {
+  .links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+  }
+
+  .links button {
+    white-space: nowrap;
+    width: 50%;
+  }
+
+  .videoLink {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .infoBox {
+    width: 90%;
+  }
+
+  .introduction {
+    text-align: justify;
+  }
+
+  .links button {
+    width: auto;
+  }
+
+  .banner {
+    width: 80%;
+  }
+
+}

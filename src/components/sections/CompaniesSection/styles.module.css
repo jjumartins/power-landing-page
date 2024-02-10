@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+
+.companies {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo {
+  width: clamp(4.5rem, 2.714rem + 4.762vw, 7rem);
+}
+
+@media (min-width: 750px) {
+  .companies {
+    margin-bottom: 1.5rem;
+  }
+}

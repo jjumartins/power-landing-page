@@ -4,21 +4,21 @@
 }
 
 .title.h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 1.286rem + 1.905vw, 3rem);
 }
 
 .title.h2 {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 0.929rem + 1.524vw, 2.3rem);
 }
 
 .title.h3 {
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 1.129rem + 0.19vw, 1.3rem);
 }
 
 .paragraph {
   color: var(--contrast-color1);
   font-weight: 400;
-  font-size: 1rem;
+  font-size: clamp(1rem, 0.857rem + 0.381vw, 1.2rem);
 }
 
 a:link {
@@ -33,4 +33,14 @@ a:visited {
 
 .white {
   color: var(--white);
+}
+
+.text-align {
+  text-align: var(--align-center);
+}
+
+@media (min-width: 500px) {
+  .text-align {
+    text-align: var(--align-start);
+  }
 }

@@ -1,12 +1,15 @@
 .button {
   font-family: var(--default-font);
   font-weight: 700;
+  font-size: 0.85rem;
   color: var(--white);
 
   background: var(--brand-color);
 
   padding: .5rem 2rem;
   border-radius: 10px;
+
+  transition: 200ms;
 }
 
 .button:hover {

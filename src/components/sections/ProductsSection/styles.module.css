@@ -1,0 +1,9 @@
+.text {
+  padding: 1.5rem 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

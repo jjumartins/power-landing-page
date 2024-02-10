@@ -1,8 +1,12 @@
 .container {
   width: 100%;
-  max-width: 880px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
+}
+
+.scroll:target {
+  scroll-margin-top: 2.5rem;
 }
 
 @media (min-width: 750px) {

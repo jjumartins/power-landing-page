@@ -5,12 +5,33 @@
   --contrast-color1: #2f2e6c;
   --contrast-color2: #ffffff;
   --white: #ffffff;
+  --gray: #eaeafb;
 
   --default-font: 'Poppins', sans-serif;
+
+  --align-center: center;
+  --align-start: start;
+}
+
+html {  
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--contrast-color);  
+  background: var(--contrast-color2);  
   font-family: var(--default-font);
-  padding: 0 1rem;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--gray);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--brand-color);
+  border-radius: 20px;
+  border: 3px solid var(--gray);
 }

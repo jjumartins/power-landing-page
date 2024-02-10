@@ -1,0 +1,70 @@
+.footer {
+  margin-top: 1rem;
+  background: var(--brand-color-dark);
+}
+
+.logo,
+.nav,
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.marketing {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0 3rem 0;
+  border-bottom: 1px solid #fff;
+}
+
+.logo {
+  width: clamp(6rem, 4.571rem + 3.81vw, 8rem);
+}
+
+.socials {
+  display: flex;
+  gap: clamp(1rem, -0.429rem + 3.81vw, 3rem);
+}
+
+.socialsIcons {
+  padding: 0.5rem;
+  background: var(--brand-color);
+  border-radius: 100%;
+}
+
+.company {
+  padding: 3rem 0;
+}
+
+.links {
+  gap: 1rem 2rem;
+  padding: 1rem 0;
+}
+
+.nav button {
+  margin: 0 auto;
+}
+
+.rights {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+@media (min-width: 670px) {
+  .nav {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links {
+    gap: 1rem 1rem;
+    padding: 1rem 0;
+  }
+
+  .nav button {
+    margin: 0;
+  }
+}
