@@ -18,9 +18,11 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  font-family: var(--default-font);
 }
 
 .play {
+  color: var(--brand-color);
   background: var(--gray);
   border-radius: 100%;
   padding: 16px;

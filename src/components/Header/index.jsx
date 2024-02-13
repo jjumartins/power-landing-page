@@ -1,5 +1,6 @@
 import logo from '../../assets/black_logo.svg'
 import menu_icon from '../../assets/menu_icon.svg'
+import { ContactButton } from '../ContactButton'
 import styles from './styles.module.css'
 import { useState } from 'react'
 
@@ -23,7 +24,7 @@ export const Header = () => {
             <li><a onClick={toggleOpen} href='#reviews'>Reviews</a></li>
             <li><a onClick={toggleOpen} href='#services'>Services</a></li>
           </ul>
-          <button className={`button ${styles.contact} ${isOpen ? styles.open : ''}`}>Contact Us</button>
+          <ContactButton className={`${styles.contact} ${isOpen ? styles.open : ''}`}/>
         </nav>
       </div>
     </header>

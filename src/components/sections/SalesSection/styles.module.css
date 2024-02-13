@@ -24,10 +24,16 @@
   border: none;
   background: transparent;
   outline: none;
+  font-family: var(--default-font);
+  color: var(--contrast-color1);
+  font-weight: 400;
+  font-size: 0.95rem;
 }
 
 .input input::placeholder {
   font-family: var(--default-font);
+  font-weight: 400;
+  font-size: 0.95rem;
 }
 
 .serviceList {

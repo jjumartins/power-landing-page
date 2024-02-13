@@ -3,6 +3,7 @@ import github_logo from '../../assets/socials/github_logo.png'
 import instagram_logo from '../../assets/socials/instagram_logo.png'
 import facebook_logo from '../../assets/socials/facebook_logo.png'
 import styles from './styles.module.css'
+import { ContactButton } from '../ContactButton'
 
 export const Footer = () => {
   return (<>
@@ -26,7 +27,7 @@ export const Footer = () => {
               <li><a href='#' className='white'>Terms of Use</a></li>
               <li><a href='#' className='white'>Privacy policy</a></li>
             </ul>
-            <button className='button'>Contact Us</button>
+            <ContactButton />
           </div>
         </div>
         <p className={`paragraph white ${styles.rights}`}>© Power 2024 - All Rights Reserved</p>

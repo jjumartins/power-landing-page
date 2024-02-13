@@ -1,0 +1,65 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.input {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  gap: 0.8rem;
+  margin: 0.5rem auto;
+  padding: 0.8rem;
+  background: var(--gray);
+  border-radius: 15px;
+}
+
+.input img {
+  width: 1.5rem;
+}
+
+.input input {
+  flex-grow: 1;
+  height: 2rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: var(--default-font);
+  color: var(--contrast-color1);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.textWrapper {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  background: var(--gray);
+  border-radius: 15px;
+}
+
+textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  font-family: var(--default-font);
+  color: var(--contrast-color1);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+textarea::placeholder {
+  font-family: var(--default-font);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.input input::placeholder {
+  font-family: var(--default-font);
+  font-weight: 400;
+  font-size: 0.95rem;
+}

@@ -1,6 +1,4 @@
 .item {
-  width: 350px;
-  flex-grow: 1;
   border: 2px dotted var(--brand-color-light);
   border-radius: 30px;
   padding: 1.5rem;

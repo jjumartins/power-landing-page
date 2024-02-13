@@ -1,0 +1,44 @@
+.dialogBox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.73);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  z-index: 1;
+}
+
+.dialogContent {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 343px;
+  max-width: 90%;
+  max-height: 90vh;
+}
+
+.closeVideo {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dialogVideo {
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  height: 100%;
+  background: var(--contrast-color2);
+  border: none;
+}
+
+.dialogContent form {
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  height: 100%;
+  background: var(--contrast-color2);
+  border: none;
+}
