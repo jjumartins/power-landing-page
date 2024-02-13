@@ -21,6 +21,10 @@
   font-family: var(--default-font);
 }
 
+.videoLink p:hover {
+  color: var(--brand-color);
+}
+
 .play {
   color: var(--brand-color);
   background: var(--gray);
@@ -38,7 +42,7 @@
   .links {
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 3rem;
   }
 

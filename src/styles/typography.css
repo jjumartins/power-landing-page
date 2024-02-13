@@ -19,10 +19,12 @@
   color: var(--contrast-color1);
   font-weight: 400;
   font-size: clamp(1rem, 0.857rem + 0.381vw, 1.2rem);
+  transition: 200ms;
 }
 
 a:link {
-  color: var(--brand-color);
+  color: var(--brand-color);  
+  transition: 200ms;
 }
 
 a:hover,

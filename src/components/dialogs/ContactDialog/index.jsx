@@ -12,7 +12,7 @@ export const ContactDialog = ({ isContactOpen, setIsContactOpen }) => {
   return (<>
     {isContactOpen && (
       <dialog open className='dialogBox'>
-        <div className='dialogContent'>
+        <div className='dialogContent drop'>
           <button onClick={() => { setIsContactOpen(false) }} type='button' className='button closeVideo'>Close</button>
           <form onSubmit={successSubmit}>
             <h3 className="title h3">Leve us a message</h3>

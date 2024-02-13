@@ -1,0 +1,31 @@
+.drop {
+  animation: dropDown ease-in-out 0.7s;
+}
+
+.slide {
+  animation: slideIn ease-in-out 0.7s;
+}
+
+@keyframes dropDown {
+  0%{
+    transform: translateY(-100px)
+  }
+  70%{
+    transform: translateY(10px)
+  }
+  100%{
+    transform: translateY(0)
+  }
+}
+
+@keyframes slideIn {
+  0%{
+    transform: translateX(-100px)
+  }
+  70%{
+    transform: translateX(5px)
+  }
+  100%{
+    transform: translateX(0)
+  }
+}

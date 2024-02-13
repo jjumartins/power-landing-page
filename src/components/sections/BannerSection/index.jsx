@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import banner from '../../../assets/banner.png'
+import banner from '../../../assets/banner.svg'
 import styles from './styles.module.css'
 import { VideoDialog } from '../../dialogs/VideoDialog'
 import { ContactButton } from '../../ContactButton'
@@ -11,7 +11,7 @@ export const BannerSection = () => {
   return (<>
     <section>
       <div className={`container ${styles.flex}`}>
-        <div>
+        <div className='slide'>
           <h1 className='title h1 text-align'>We Design Impactful Digital <span className={styles.highlight}>Products</span></h1>
           <div className={styles.infoBox}>
             <p className={`paragraph text-align ${styles.introduction}`}>Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services.</p>

@@ -45,9 +45,26 @@
   font-weight: 800;
   font-size: 1rem;
   color: var(--brand-color-dark);
+  transition: 200ms;
 }
 
 .rating {
   color: var(--brand-color);
   font-size: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .item img {
+    transition: 200ms;
+    filter: opacity(0.8);
+  }
+  
+  .item img:hover {
+    transform: scale(1.02);
+    filter: opacity(1);
+  }
+
+  .readMore:hover {
+    color: var(--brand-color);
+  }
 }

@@ -29,5 +29,12 @@
 
   .item img {
     width: 65px;
+    transition: 200ms;
+    filter: opacity(1);
+  }
+
+  .item img:hover {
+    transform: scale(1.02);
+    filter: opacity(0.8);
   }
 }

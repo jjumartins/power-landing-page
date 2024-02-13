@@ -18,4 +18,15 @@
   .companies {
     margin-bottom: 1.5rem;
   }
+
+  .logo {
+    padding: 0 0.5rem;
+    transition: 200ms;
+    filter: brightness(1);
+  }
+  
+  .logo:hover {
+    transform: scale(1.03);
+    filter: brightness(2);
+  }
 }

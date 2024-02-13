@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (<>
     <header>
-      <div className={`container ${styles.header}`}>
+      <div className={`container drop ${styles.header}`}>
         <nav className={styles.nav}>
           <a href='#'><img src={logo} alt='Logo Power' className={styles.logo} /></a>
           <button onClick={toggleOpen} className={styles.menuIcon}>{isOpen ? '✘' : '☰'}</button>

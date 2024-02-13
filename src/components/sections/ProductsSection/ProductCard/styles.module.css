@@ -7,3 +7,15 @@
 .item img {
   border-radius: 10%;
 }
+
+@media (min-width: 800px) {
+  .item img {
+    transition: 200ms;
+    filter: opacity(0.8);
+  }
+  
+  .item img:hover {
+    transform: scale(1.02);
+    filter: opacity(1);
+  }
+}

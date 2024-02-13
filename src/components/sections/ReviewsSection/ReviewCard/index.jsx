@@ -11,7 +11,7 @@ export const ReviewCard = ({ review }) => {
         <img src={review.img} alt='Client picture' />
         <h3 className='title h3'>{review.name}</h3>
       </div>
-      <div className={isExpanded ? styles.expanded : styles.collapsed}>
+      <div className={isExpanded ? '' : styles.collapsed}>
         <p className={`paragraph`}>{review.text}</p>
         <button className={styles.readMore} onClick={() => setIsExpanded(!isExpanded)} >
           {isExpanded ? 'Read less' : 'Read more'}
