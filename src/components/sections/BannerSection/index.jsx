@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import banner from '../../../assets/banner.svg'
+import banner from '../../../assets/banner.png'
 import styles from './styles.module.css'
 import { VideoDialog } from '../../dialogs/VideoDialog'
 import { ContactButton } from '../../ContactButton'
