@@ -8,6 +8,10 @@
   border-radius: 10%;
 }
 
+.item p {
+  text-align: justify;
+}
+
 @media (min-width: 800px) {
   .item img {
     transition: 200ms;
@@ -17,5 +21,9 @@
   .item img:hover {
     transform: scale(1.02);
     filter: opacity(1);
+  }
+
+  .item p {
+    text-align: start;
   }
 }

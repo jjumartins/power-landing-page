@@ -13,7 +13,7 @@ export const ContactDialog = ({ isContactOpen, setIsContactOpen }) => {
     {isContactOpen && (
       <dialog open className='dialogBox'>
         <div className='dialogContent drop'>
-          <button onClick={() => { setIsContactOpen(false) }} type='button' className='button closeVideo'>Close</button>
+          <button onClick={() => { setIsContactOpen(false) }} type='button' className='button closeDialog'>Close</button>
           <form onSubmit={successSubmit}>
             <h3 className="title h3">Leve us a message</h3>
             <div className={styles.input}>

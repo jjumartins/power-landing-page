@@ -18,13 +18,13 @@ export const Header = () => {
         <nav className={styles.nav}>
           <a href='#'><img src={logo} alt='Logo Power' className={styles.logo} /></a>
           <button onClick={toggleOpen} className={styles.menuIcon}>{isOpen ? '✘' : '☰'}</button>
-          <ul className={`${styles.menuLinks} ${isOpen ? styles.open : ''}`}>
+          <ul className={`drop ${styles.menuLinks} ${isOpen ? styles.open : ''}`}>
             <li><a onClick={toggleOpen} href='#'>Home</a></li>
             <li><a onClick={toggleOpen} href='#products'>Products</a></li>
             <li><a onClick={toggleOpen} href='#reviews'>Reviews</a></li>
             <li><a onClick={toggleOpen} href='#services'>Services</a></li>
           </ul>
-          <ContactButton className={`${styles.contact} ${isOpen ? styles.open : ''}`}/>
+          <ContactButton className={`drop ${styles.contact} ${isOpen ? styles.open : ''}`}/>
         </nav>
       </div>
     </header>

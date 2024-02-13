@@ -23,7 +23,11 @@
   max-height: 90vh;
 }
 
-.closeVideo {
+.dialogContent button {
+  width: 100%;
+}
+
+.closeDialog {
   border-radius: 10px 10px 0px 0px;
 }
 
