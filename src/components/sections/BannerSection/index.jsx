@@ -10,8 +10,8 @@ export const BannerSection = () => {
 
   return (<>
     <section>
-      <div className={`container ${styles.flex}`}>
-        <div className='slide'>
+      <div className={`container reveal ${styles.flex}`}>
+        <div>
           <h1 className='title h1 text-align'>We Design Impactful Digital <span className={styles.highlight}>Products</span></h1>
           <div className={styles.infoBox}>
             <p className={`paragraph text-align ${styles.introduction}`}>Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services.</p>
